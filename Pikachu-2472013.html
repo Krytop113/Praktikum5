@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Pikachu-2472013</title>
+    <style type="text/css">
+        body{
+            background-color: beige;
+            margin: 0;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        
+        h1{
+            text-align: center;
+        }
+
+        hr{
+            border: 2px solid black;
+            background-color: black;
+            width: 85%;
+        }
+
+        td{
+            background-color: rgb(64, 138, 64);
+            border: 5px solid black;
+            position: relative;
+            z-index: 0;
+        }
+
+        table{
+            margin:30px auto;
+        }
+
+        .desc{
+            padding: 20px;
+            background-color:beige;
+            border: none;
+            text-align: center;
+            font-weight:800;
+        }
+
+        .matakanan{
+            position: absolute;
+            top: 220px;
+            left: 280px;
+            z-index: 1;
+        }
+
+        .matakiri{
+            position: absolute;
+            top: 220px;
+            left: 150px;
+            z-index: 1;
+        }
+
+        .hidung{
+            position: absolute;
+            top: 275px;
+            left: 210px;
+            z-index: 1;
+        }
+
+        .mulut{
+            position: absolute;
+            top: 310px;
+            left: 200px;
+            z-index: 1;
+        }
+
+        .pipikanan{
+            position: absolute;
+            top: 260px;
+            left: 320px;
+            z-index: 1;
+        }
+
+        .pipikiri{
+            position: absolute;
+            top: 260px;
+            left: 100px;
+            z-index: 1;
+        }
+
+        footer{
+            text-align: center;
+            background-color: orange;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+            padding-top: 7px;
+            padding-bottom: 7px;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Position Relative with CSS</h1>
+    <hr>
+    <br>
+
+    <table>
+        <tr>
+            <td>
+                <img src="img/mata-kanan.png" alt="">
+                <img src="img/mata-kiri.png" alt="">
+                <img src="img/hidung.png" alt="">
+                <img src="img/Mulut.png" alt="">
+                <img src="img/pipi-kanan.png" alt="">
+                <img src="img/pipi-kiri.png" alt="">
+                <br>
+                <img src="img/badan_pikachu.png" alt="">
+            </td>
+            <td class="gambar">
+                <img src="img/mata-kanan.png" alt="" class="matakanan">
+                <img src="img/mata-kiri.png" alt="" class="matakiri">
+                <img src="img/hidung.png" alt="" class="hidung">
+                <img src="img/Mulut.png" alt="" class="mulut">
+                <img src="img/pipi-kanan.png" alt="" class="pipikanan">
+                <img src="img/pipi-kiri.png" alt="" class="pipikiri">
+                <br>
+                <img src="img/badan_pikachu.png" alt="">
+            </td>
+        </tr>
+        <tr>
+            <td class="desc">Sebelum CSS</td>
+            <td class="desc">Setelah CSS</td>
+        </tr>
+    </table>
+
+    <footer>[2472013] [Javier Leander Wijaya]</footer>
+</body>
+</html>
